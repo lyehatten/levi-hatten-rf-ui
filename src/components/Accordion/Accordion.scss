@@ -1,0 +1,28 @@
+hr {
+  border-width: 1px;
+  color: #bbbbbb;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.accordion-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  .header {
+    gap: 24px;
+    display: flex;
+    height: 35px;
+    img {
+      height: 35px;
+    }
+    h3 {
+      margin: 0px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24.2px;
+      align-self: center;
+    }
+  }
+}

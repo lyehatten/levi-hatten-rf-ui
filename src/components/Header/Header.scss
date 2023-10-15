@@ -1,0 +1,31 @@
+.header {
+  height: 88px;
+  display: flex;
+  text-align: left;
+  gap: 16px;
+  width: 100%;
+}
+
+img {
+  height: 100%;
+}
+
+.text {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  height: 88px;
+  h1 {
+    font-weight: 600;
+    margin: 0;
+    line-height: 38.73px;
+  }
+  .subtext {
+    align-self: baseline;
+    p {
+      margin: 0px;
+      font-weight: 400;
+      line-height: 19.36px;
+    }
+  }
+}

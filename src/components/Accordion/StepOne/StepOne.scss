@@ -1,0 +1,48 @@
+.step-one {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  p {
+    span {
+      font-weight: 700;
+      color: #222222;
+    }
+    line-height: 16.94px;
+    color: #444444;
+  }
+  .items {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
+    border: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-radius: 4px;
+    padding: 16px 24px 16px 24px;
+    gap: 32px;
+    .item {
+      display: flex;
+      flex-direction: column;
+      padding: 8px;
+      gap: 4px;
+      width: 221px;
+      flex-grow: 1;
+      text-align: left;
+      .item-title {
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 15.73px;
+      }
+      p {
+        color: #222222;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14.52px;
+      }
+    }
+    .empty-item {
+      height: 0px;
+    }
+  }
+}
